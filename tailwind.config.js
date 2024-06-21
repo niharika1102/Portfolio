@@ -18,13 +18,21 @@ export default {
     },
     extend: {
       fontFamily: {
-        'spartan': ['Spartan-MB-SemiBold', 'sans-serif'],
+        'title-big': ['Darker Grotesque', 'sans-serif'],
+        'body-1': ['DM Sans', 'sans-serif'],
       },
       colors: {
-        'primary': "#DC143C",
-        'secondary': "#880C25",
-        "slate-gray": "#AAAAAA",
-        "white-logo": "#FFFFFF"
+        'black': "#01100F",
+        'dGreen': "#052826",
+        "lGreen": "#39E8B0",
+        "white": "#FFFFFF",
+        'white-48': 'rgba(255, 255, 255, 0.48)',
+        'white-12': 'rgba(255, 255, 255, 0.12)',
+        'dGreen-72': 'rgba(5, 40, 38, 0.72)'
+      },
+      backgroundImage: {
+        'gradient-hover': 'linear-gradient(to right, #13a476, #1eb584, #27c592, #30d7a1, #39e8b0)',
+        'gradient-hover-2': 'linear-gradient(to right, #39e8b0, #30d7a1, #27c592, #1eb584, #13a476)',
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
