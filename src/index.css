@@ -24,6 +24,11 @@
 }
 
 @layer utilities {
+  .bg-clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
@@ -56,15 +61,15 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 
-  .hover-text {
+  .hover-text:hover {
     @apply font-normal text-[16px] underline
   }
 
-  .hover-btn {
+  .hover-btn:hover {
     @apply bg-gradient-hover
   }
 
-  .hover-icon {
+  .hover-icon:hover {
     @apply bg-white-12 rounded-md p-2
   }
 }

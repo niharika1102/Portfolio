@@ -8,14 +8,14 @@ import ToolsAndTechnology from './sections/ToolsAndTechnology'
 
 function Layout() {
   return (
-    <>
-        <Header/>
-        <Outlet/>
-        {/* <OpeningSection/>
-        <Projects/>
-        <ToolsAndTechnology/>
-        <Footer/> */}
-    </>
+    <div className=' bg-black-1'>
+      <Header/>
+      <Outlet/>
+      {/* <OpeningSection/>
+      <Projects/>
+      <ToolsAndTechnology/>
+      <Footer/> */}
+    </div>
   )
 }
 
