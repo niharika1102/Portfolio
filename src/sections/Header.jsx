@@ -34,7 +34,12 @@ function Header() {
         </div>
 
         <div className='flex lg:hidden items-center'>
-          <Menu size={32} color='#fff' onClick={() => setShowMenu(!showMenu)} />
+          <Menu
+            size={32}
+            color='#fff'
+            onClick={() => setShowMenu(!showMenu)}
+            className='cursor-pointer transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'
+          />
           <div
             className={`absolute top-16 right-4 w-40 bg-black-1 py-4 px-6 rounded transition duration-300 ease-in-out ${
               showMenu ? 'opacity-100' : 'opacity-0 pointer-events-none'
