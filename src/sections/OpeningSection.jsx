@@ -1,9 +1,11 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { profile } from '../assets/images/index';
+import Button from '../components/Button';
 
 const OpeningSection = () => {
   return (
-    <div className="flex-grow bg-black-1 sticky px-16">
+    <div className="flex-grow bg-black-1 sticky px-32">
       <div className="container mx-auto flex flex-col py-12 px-4 xl:px-0">
         <div className="w-full flex flex-col lg:flex-row lg:items-center justify-between">
           <div className="flex flex-col justify-center text-center lg:text-left lg:w-1/2">
@@ -16,11 +18,15 @@ const OpeningSection = () => {
               Software Developer and App Developer with strong teamwork skills. Passion for coding and innovation. Enthusiastic to learn about software development, programming languages, and emerging technologies, and regularly engaging in online courses and certifications.
             </p>
             <div className="flex flex-col items-center lg:flex-row">
-              <button className="flex items-center rounded-xl bg-purple-blue-500 px-5 py-4 text-sm font-medium text-white transition hover:bg-purple-blue-600 focus:bg-purple-blue-700">Get started now</button>
+              <NavLink
+                to="https://drive.google.com/file/d/167xXA3xpczsmr_Wk_evOCZ13CgyfEG5m/view?usp=sharing"
+              >
+                <Button label="My Resume" />
+              </NavLink>
             </div>
           </div>
           <div className="flex justify-center lg:w-1/2 lg:justify-end mt-8 lg:mt-0">
-            <img className="w-4/5 rounded-2xl" src={profile} alt="Profile picture" />
+            <img className="w-3/6 rounded-2xl" src={profile} alt="Profile picture" />
           </div>
         </div>
       </div>
