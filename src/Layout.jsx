@@ -3,12 +3,16 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './sections/Header';
 import Footer from './sections/Footer';
+import OpeningSection from './sections/OpeningSection';
+import Projects from './sections/Projects';
 
 function Layout() {
   return (
     <main className='relative flex flex-col min-h-screen bg-gradient-back bg-fixed'>
         <Header />
         <Outlet />
+        {/* <OpeningSection/>
+        <Projects/> */}
         <Footer/>
     </main>
 
