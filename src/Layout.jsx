@@ -8,11 +8,11 @@ import Projects from './sections/Projects';
 
 function Layout() {
   return (
-    <main className='relative flex flex-col min-h-screen bg-gradient-back bg-fixed'>
+    <main className='flex flex-col min-h-screen bg-black-1 bg-fixed'>
         <Header />
         <Outlet />
-        {/* <OpeningSection/>
-        <Projects/> */}
+        <OpeningSection/>
+        <Projects/>
         <Footer/>
     </main>
 

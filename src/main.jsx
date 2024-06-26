@@ -6,13 +6,15 @@ import Layout from './Layout.jsx'
 import OpeningSection from './sections/OpeningSection.jsx'
 import Projects from './sections/Projects.jsx'
 import ToolsAndTechnology from './sections/ToolsAndTechnology.jsx'
+import AboutMe from './sections/AboutMe.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-      <Route path='' element={<OpeningSection/>}/>
+      {/* <Route path='' element={<OpeningSection/>}/> */}
       <Route path='projects' element={<Projects/>}/>
-      <Route path='' element={<ToolsAndTechnology/>}/>
+      <Route path='tools-and-technologies' element={<ToolsAndTechnology/>}/>
+      <Route path='about-me' element={<AboutMe/>}/>
     </Route>
   )
 )
