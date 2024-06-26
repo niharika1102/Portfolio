@@ -29,6 +29,7 @@ export default {
         "white-2": '#aaaaaa',
         'white-48': 'rgba(255, 255, 255, 0.48)',
         'white-12': 'rgba(255, 255, 255, 0.12)',
+        'white-63': 'rgba(255, 255, 255, 0.63)',
         'dGreen-72': 'rgba(5, 40, 38, 0.72)',
       },
       backgroundImage: {
