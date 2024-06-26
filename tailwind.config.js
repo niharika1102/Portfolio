@@ -26,6 +26,7 @@ export default {
         'dGreen': "#052826",
         "lGreen": "#39E8B0",
         "white-1": "#FFFFFF",
+        "white-2": '#aaaaaa',
         'white-48': 'rgba(255, 255, 255, 0.48)',
         'white-12': 'rgba(255, 255, 255, 0.12)',
         'dGreen-72': 'rgba(5, 40, 38, 0.72)',

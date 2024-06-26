@@ -1,32 +1,31 @@
 import React from 'react';
+import { profile } from '../assets/images/index';
 
 const OpeningSection = () => {
   return (
-    <div className="flex-grow bg-black-1 sticky">
-      <div className="container mx-auto flex flex-col py-12">
-        <div className="w-full xl:mx-11 grid-cols-1 justify-center md:flex md:gap-5 lg:grid lg:grid-cols-2">
-          <div className="col-span-1 flex flex-col justify-center text-center md:w-3/5 lg:w-full lg:justify-center lg:text-left">
-            <h1 className="mb-8 text-4xl font-extrabold leading-tight lg:text-5xl xl:w-11/12 xl:text-6xl">
-              Take your website to the next level with Horizon UI
+    <div className="flex-grow bg-black-1 sticky px-16">
+      <div className="container mx-auto flex flex-col py-12 px-4 xl:px-0">
+        <div className="w-full flex flex-col lg:flex-row lg:items-center justify-between">
+          <div className="flex flex-col justify-center text-center lg:text-left lg:w-1/2">
+            <h1 className="mb-8 text-4xl font-bold font-title-big leading-tight lg:text-5xl xl:text-6xl">
+              <span className="text-lGreen">Hi, I&#39;m Niharika,</span>
+              <br />
+              <span className="text-white-1">a BE CSE student</span>
             </h1>
-            <p className="mb-10 text-base font-medium leading-7 text-dark-grey-600 xl:w-3/4">
-              Save hundreds of hours trying to create and develop a dashboard from scratch. The fastest, most responsive & trendiest dashboard is here. Seriously.
+            <p className="mb-10 text-[20px] font-body-1 font-medium leading-7 text-white-2">
+              Software Developer and App Developer with strong teamwork skills. Passion for coding and innovation. Enthusiastic to learn about software development, programming languages, and emerging technologies, and regularly engaging in online courses and certifications.
             </p>
             <div className="flex flex-col items-center lg:flex-row">
               <button className="flex items-center rounded-xl bg-purple-blue-500 px-5 py-4 text-sm font-medium text-white transition hover:bg-purple-blue-600 focus:bg-purple-blue-700">Get started now</button>
-              <button className="flex items-center rounded-xl px-5 py-4 text-sm font-medium text-dark-grey-900">
-                <img className="mr-2 h-6" src="../../img/icons/phone.png" alt="phone icon" />
-                Book a free call
-              </button>
             </div>
           </div>
-          <div className="col-span-1 hidden items-center justify-end lg:flex">
-            <img className="w-4/5 rounded-2xl" src="../../img/header-1.png" alt="header image" />
+          <div className="flex justify-center lg:w-1/2 lg:justify-end mt-8 lg:mt-0">
+            <img className="w-4/5 rounded-2xl" src={profile} alt="Profile picture" />
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default OpeningSection;
