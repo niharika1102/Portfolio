@@ -1,22 +1,27 @@
-import React from 'react'
-import Header from './sections/Header'
-import Footer from './sections/Footer'
-import { Outlet } from 'react-router-dom'
-import OpeningSection from './sections/OpeningSection'
-import Projects from './sections/Projects'
-import ToolsAndTechnology from './sections/ToolsAndTechnology'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './sections/Header';
+import Footer from './sections/Footer';
 
 function Layout() {
   return (
-    <div className=' bg-black-1'>
-      <Header/>
-      <Outlet/>
-      {/* <OpeningSection/>
-      <Projects/>
-      <ToolsAndTechnology/>
-      <Footer/> */}
-    </div>
-  )
+    <main className='relative flex flex-col min-h-screen bg-gradient-back bg-fixed'>
+        <Header />
+        <Outlet />
+        <Footer/>
+    </main>
+
+    // <main className="relative">
+    //   <Header/>
+    //   <section>
+    //     <Outlet/>
+    //   </section>
+    //   <section>
+    //     <Footer/>
+    //   </section>
+    // </main>
+  );
 }
 
-export default Layout
+export default Layout;
