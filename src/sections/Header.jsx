@@ -7,7 +7,7 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className='padding-x py-8 absolute z-10 w-full bg-black-1'>
+    <header className='sticky padding-x py-8 absolute z-10 w-full bg-black-1'>
       <nav className='flex justify-between items-center max-container'>
         <NavLink to="/">
           <p className='font-bold text-[36px] text-transparent bg-clip-text bg-gradient-1 font-title-big'>
