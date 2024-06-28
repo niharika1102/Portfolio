@@ -5,6 +5,8 @@ import Header from './sections/Header';
 import Footer from './sections/Footer';
 import OpeningSection from './sections/OpeningSection';
 import Projects from './sections/Projects';
+import ToolsAndTechnology from './sections/ToolsAndTechnology';
+import AboutMe from './sections/AboutMe';
 
 function Layout() {
   return (
@@ -13,6 +15,8 @@ function Layout() {
         <Outlet />
         <OpeningSection/>
         <Projects/>
+        <ToolsAndTechnology/>
+        <AboutMe/>
         <Footer/>
     </main>
 

@@ -12,7 +12,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       {/* <Route path='' element={<OpeningSection/>}/> */}
-      <Route path='projects' element={<Projects/>}/>
+      {/* <Route path='projects' element={<Projects/>}/> */}
       <Route path='tools-and-technologies' element={<ToolsAndTechnology/>}/>
       <Route path='about-me' element={<AboutMe/>}/>
     </Route>
