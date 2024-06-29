@@ -1,5 +1,6 @@
 import React from "react";
 import { Linkedin, Github, Mail, Phone } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,16 +13,21 @@ const Footer = () => {
         </div>
         <div className="flex items-center space-x-2 md:space-x-4 text-white">
           <Mail className="w-5 h-5 md:w-6 md:h-6 text-lGreen" />
-          <span className="text-sm md:text-base">niharikag1102@gmail.com</span>
+          <NavLink 
+            to="mailto:niharikag1102@gmail.com" 
+            className="text-sm md:text-base"
+          >
+            niharikag1102@gmail.com
+          </NavLink>
         </div>
       </div>
-      <div className="flex space-x-4 mt-6 md:mt-8">
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-6 h-6 md:w-8 md:h-8 text-white transition duration-300 ease-in-out hover:text-lGreen" />
-        </a>
-        <a href="https://github.com/niharika1102" target="_blank" rel="noopener noreferrer">
-          <Github className="w-6 h-6 md:w-8 md:h-8 text-white transition duration-300 ease-in-out hover:text-lGreen" />
-        </a>
+      <div className='flex space-x-4 mt-6 md:mt-8'>
+        <NavLink to="https://github.com/niharika1102/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
+          <Github size={32} color='#fff' />
+        </NavLink>
+        <NavLink to="https://www.linkedin.com/in/niharika-gupta/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
+          <Linkedin size={32} color='#fff' />
+        </NavLink>
       </div>
     </section>
   );
