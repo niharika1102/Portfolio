@@ -7,10 +7,18 @@ import { NavLink } from 'react-router-dom';
 const Projects = () => {
   return (
     <section className="container py-12 px-10 sticky">
-      <h2 className="text-[30px] font-title-big font-bold text-lGreen mb-8">Projects</h2>
+      <h2 className="text-[30px] font-title-big font-bold text-lGreen">Projects</h2>
       <div className="grid gap-8">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
+            githubLink={project.githubLink}
+            demoLink={project.demoLink}
+            projectImage={project.projectImage}
+            skills={project.skills}
+          />
         ))}
       </div>
       <div className="flex justify-center mt-8">

@@ -9,33 +9,37 @@ export const navLinks = [
 
 export const projects = [
     {
-        title: 'YelpCamp',
-        description: 'YelpCamp is a website where users can create and review campgrounds. This project was created using MERN stack and Bootstrap. Passport.js was used to handle authentication.',
-        githubLink: 'https://github.com/niharika1102/YelpCamp',
-        demoLink: 'https://yelpcamp-oldf.onrender.com/',
-        projectImage: yelpCamp,
+      title: 'YelpCamp',
+      description: 'YelpCamp is a website where users can create and review campgrounds. This project was created using MERN stack and Bootstrap. Passport.js was used to handle authentication.',
+      githubLink: 'https://github.com/niharika1102/YelpCamp',
+      demoLink: 'https://yelpcamp-oldf.onrender.com/',
+      projectImage: yelpCamp,
+      skills: ['MERN Stack', 'MongoDB', 'Express', 'Node.js', 'Bootstrap', 'Passport.js', 'Cloudinary', 'Mapbox API']
     },
     {
-        title: 'Chitkara Grocery Store',
-        description: 'Discover stylish Nike arrivals quality comfort and innovation for your active life. It has been created using React.js and Tailwind CSS.',
-        githubLink: 'https://github.com/niharika1102/nike', // Replace with actual link
-        demoLink: 'https://6661c75ff5a46808fb56baa6--nike-v1-react.netlify.app/',
-        projectImage: nike,
+      title: 'Nike Landing Page',
+      description: 'Discover stylish Nike arrivals quality comfort and innovation for your active life. It has been created using React.js and Tailwind CSS.',
+      githubLink: 'https://github.com/niharika1102/nike', // Replace with actual link
+      demoLink: 'https://6661c75ff5a46808fb56baa6--nike-v1-react.netlify.app/',
+      projectImage: nike,
+      skills: ['React', 'Tailwind CSS']
     },
     {
       title: 'Chitkara Grocery Store',
-      description: 'A website for grocery shopping made using HTML, CSS and JavaScript. It has uniform font families and color pallete throughout.',
+      description: 'A website for grocery shopping made using HTML, CSS and JavaScript. It has uniform font families and color palette throughout.',
       githubLink: 'https://github.com/niharika1102/Chitkara-Grocery-Store', // Replace with actual link
       projectImage: chitkaraGroceryStore,
+      skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        title: 'MovieLand',
-        description: 'MovieLand is a website that helps a user to get information about a web series or a movie like its poster and its release year simply by searching with the title of the movie or the web series. It has been created using React.js and Tailwind CSS and OMDb API.',
-        githubLink: 'https://github.com/niharika1102/movie-app', // Replace with actual link
-        demoLink: 'https://main--golden-salmiakki-131c76.netlify.app/',
-        projectImage: movieland,
-    },
-];
+      title: 'MovieLand',
+      description: 'MovieLand is a website that helps a user to get information about a web series or a movie like its poster and its release year simply by searching with the title of the movie or the web series. It has been created using React.js and Tailwind CSS and OMDb API.',
+      githubLink: 'https://github.com/niharika1102/movie-app', // Replace with actual link
+      demoLink: 'https://main--golden-salmiakki-131c76.netlify.app/',
+      projectImage: movieland,
+      skills: ['React', 'Tailwind CSS', 'OMDb API']
+    }
+  ];
 
 export const tools = [
     { src: mongodb, alt: "MongoDB" },
