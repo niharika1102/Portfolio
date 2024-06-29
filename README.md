@@ -44,7 +44,7 @@ npm install
 npm run dev
 ```
 
-<p>4. Visit http://localhost:5173 to view the web page.</p>
+<p>4. Visit <a href="http://localhost:5173">http://localhost:5173</a> to view the web page.</p>
 
   
   
