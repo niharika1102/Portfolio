@@ -8,7 +8,7 @@
 
 [https://niharika-portfolio-v1.netlify.app/](https://niharika-portfolio-v1.netlify.app/)
 
-<h2>Project Screenshots:</h2>
+<h2>Project Screenshots</h2>
 
 <img src="https://i.imgur.com/3orHaaP.png" alt="project-screenshot" />
 
@@ -28,7 +28,7 @@ Here're some of the project's best features:
 *   Modern Styling
 *   Clean design
 
-<h2>🛠️ Installation Steps:</h2>
+<h2>🛠️ Installation Steps</h2>
 
 <p>1. Clone the repository in your local environment.</p>
 
