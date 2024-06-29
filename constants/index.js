@@ -61,3 +61,18 @@ export const tools = [
     { src: figma, alt: "Figma" },
     { src: ubuntu, alt: "Ubuntu" },
 ];
+
+export const timelineEvents = [
+    {
+    date: "2021 - Present",
+    description: "Pursuing BE CSE from Chitkara University, Rajpura."
+    },
+    {
+    date: "2021",
+    description: "Completed 12th std. from MRA Sr. Sec. Model School, Chandigarh with a score of 96%."
+    },
+    {
+    date: "2019",
+    description: "Completed 10th std. from Sacred Heart Convent Sr. Sec. School, Chandigarh with a score of 93.8%."
+    }
+];
