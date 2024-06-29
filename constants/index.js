@@ -1,4 +1,4 @@
-import { chitkaraGroceryStore, movieland, nike, yelpCamp } from "../src/assets/images";
+import { aws, bootstrap, chitkaraGroceryStore, css, docker, express, figma, git, github, html, java, js, mongodb, movieland, mysql, nike, node, postman, react, tailwind, ubuntu, yelpCamp } from "../src/assets/images";
 
 export const navLinks = [
     { to: "projects", label: "Projects" },
@@ -34,4 +34,25 @@ export const projects = [
         demoLink: 'https://main--golden-salmiakki-131c76.netlify.app/',
         projectImage: movieland,
     },
-  ];
+];
+
+export const tools = [
+    { src: mongodb, alt: "MongoDB" },
+    { src: express, alt: "Express.js" },
+    { src: react, alt: "React.js" },
+    { src: node, alt: "Node.js" },
+    { src: postman, alt: "Postman" },
+    { src: tailwind, alt: "Tailwind CSS" },
+    { src: java, alt: "Java" },
+    { src: git, alt: "Git" },
+    { src: github, alt: "Github" },
+    { src: aws, alt: "AWS" },
+    { src: docker, alt: "Docker" },
+    { src: mysql, alt: "MySQL" },
+    { src: html, alt: "HTML" },
+    { src: css, alt: "CSS" },
+    { src: bootstrap, alt: "Bootstrap" },
+    { src: js, alt: "JavaScript" },
+    { src: figma, alt: "Figma" },
+    { src: ubuntu, alt: "Ubuntu" },
+];
