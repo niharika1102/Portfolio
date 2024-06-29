@@ -32,11 +32,13 @@ export default {
         'white-63': 'rgba(255, 255, 255, 0.63)',
         'dGreen-72': 'rgba(5, 40, 38, 0.72)',
       },
-      backgroundImage: {
+      // backgroundImage: {
+      //   'gradient-back': 'radial-gradient(40.87% 69.47% at 85.87% 31.98%, rgba(3, 255, 104, 0.09) 0%, rgba(121, 255, 175, 0.00) 100%), radial-gradient(54.34% 45.76% at 15.8% 49.94%, rgba(69, 3, 255, 0.20) 0%, rgba(69, 3, 255, 0.00) 100%), #01100F',
+      // },
+      backgroundImage: theme => ({
         'gradient-hover': 'linear-gradient(to right, #39e8b0, #30d7a1, #27c592, #1eb584, #13a476)',
         'gradient-1': 'linear-gradient(to right, #13a476, #1eb584, #27c592, #30d7a1, #39e8b0)',
-        'gradient-back': 'radial-gradient(40.87% 69.47% at 85.87% 31.98%, rgba(3, 255, 104, 0.09) 0%, rgba(121, 255, 175, 0.00) 100%), radial-gradient(54.34% 45.76% at 15.8% 49.94%, rgba(69, 3, 255, 0.20) 0%, rgba(69, 3, 255, 0.00) 100%), #01100F',
-      },
+      }),
       backgroundClip: {
         text: 'text',
       },

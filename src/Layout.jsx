@@ -3,10 +3,11 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './sections/Header';
 import Footer from './sections/Footer';
+import './layout.css'
 
 function Layout() {
   return (
-    <main className='flex flex-col min-h-screen bg-black-1 bg-fixed'>
+    <main className='layout'>
         <Header />
         <Outlet />
         <Footer/>
@@ -15,4 +16,3 @@ function Layout() {
 }
 
 export default Layout;
-
