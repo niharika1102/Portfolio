@@ -3,7 +3,7 @@ import Timeline from '../components/Timeline'; // Adjust the import path as need
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen">
+    <div className="">
       <Timeline />
     </div>
   );
