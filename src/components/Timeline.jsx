@@ -10,10 +10,10 @@ const Timeline = () => {
                 {timelineEvents.map((event, index) => (
                 <div key={index} className="mb-10 ml-6">
                     <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-dGreen border-2 border-lGreen rounded-full">
-                    <div className="w-3 h-3 bg-lGreen rounded-full"></div>
+                        <div className="w-3 h-3 bg-lGreen rounded-full"></div>
                     </span>
-                    <h3 className="text-white text-base md:text-lg font-bold mb-1">{event.date}</h3>
-                    <p className="text-white-48 text-sm md:text-base">{event.description}</p>
+                    <h3 className="text-white text-base font-body-1 md:text-lg font-bold mb-1">{event.date}</h3>
+                    <p className="text-white-48 text-sm md:text-base font-body-1">{event.description}</p>
                 </div>
                 ))}
             </div>
