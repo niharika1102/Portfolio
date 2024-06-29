@@ -13,10 +13,10 @@ function Layout() {
     <main className='flex flex-col min-h-screen bg-black-1 bg-fixed'>
         <Header />
         <Outlet />
-        <OpeningSection/>
-        <Projects/>
+        {/* <OpeningSection/> */}
+        {/*<Projects/>
         <ToolsAndTechnology/>
-        <AboutMe/>
+        <AboutMe/> */}
         <Footer/>
     </main>
 
