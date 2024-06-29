@@ -83,7 +83,7 @@ function Header() {
             <Github size={32} color='#fff' />
           </NavLink>
 
-          <NavLink to="https://www.linkedin.com/in/niharika-gupta/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
+          <NavLink to="https://www.linkedin.com/in/niharika-gupta-/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
             <Linkedin size={32} color='#fff' />
           </NavLink>
         </div>
