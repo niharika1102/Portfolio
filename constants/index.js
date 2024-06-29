@@ -1,6 +1,7 @@
 import { aws, bootstrap, chitkaraGroceryStore, css, docker, express, figma, git, github, html, java, js, mongodb, movieland, mysql, nike, node, postman, react, tailwind, ubuntu, yelpCamp } from "../src/assets/images";
 
 export const navLinks = [
+    {to: "", label: "Home"},
     { to: "projects", label: "Projects" },
     { to: "tools-and-technologies", label: "Tools and Technologies" },
     { to: "about-me", label: "About Me" },
