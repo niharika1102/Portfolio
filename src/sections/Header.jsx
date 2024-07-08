@@ -2,13 +2,14 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { navLinks } from '../../constants';
-import { Github, Linkedin, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
+import { github, linkedin } from '../assets/icons/index';
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className='sticky padding-x py-8 z-10 w-full'>
+    <header className='sticky padding-x py-8 z-10 w-full' id='header'>
       <nav className='flex justify-between items-center max-container'>
         <a href="/">
           <p className='font-bold text-[36px] text-transparent bg-clip-text bg-gradient-1 font-title-big'>
@@ -67,10 +68,20 @@ function Header() {
 
                 <div className='flex items-center gap-2 mt-4'>
                   <NavLink to="https://github.com/niharika1102/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
-                    <Github size={32} color='#fff' />
+                  <img 
+                    src={github} 
+                    alt="Github"
+                    width={32}
+                    height={32}
+                  />
                   </NavLink>
                   <NavLink to="https://www.linkedin.com/in/niharika-gupta/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
-                    <Linkedin size={32} color='#fff' />
+                  <img 
+                    src={linkedin} 
+                    alt="Linkedin"
+                    width={32}
+                    height={32}
+                  />
                   </NavLink>
                 </div>
               </>
@@ -80,11 +91,21 @@ function Header() {
 
         <div className='hidden lg:flex justify-end items-center gap-5'>
           <NavLink to="https://github.com/niharika1102/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
-            <Github size={32} color='#fff' />
+            <img 
+              src={github} 
+              alt="Github"
+              width={32}
+              height={32}
+            />
           </NavLink>
 
           <NavLink to="https://www.linkedin.com/in/niharika-gupta-/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
-            <Linkedin size={32} color='#fff' />
+            <img 
+              src={linkedin} 
+              alt="Linkedin"
+              width={32}
+              height={32}
+            />
           </NavLink>
         </div>
       </nav>

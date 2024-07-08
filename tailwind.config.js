@@ -31,6 +31,7 @@ export default {
         'white-12': 'rgba(255, 255, 255, 0.12)',
         'white-63': 'rgba(255, 255, 255, 0.63)',
         'dGreen-72': 'rgba(5, 40, 38, 0.72)',
+        "lGreen-20": "rgba(57, 232, 176, 0.20)",
       },
       // backgroundImage: {
       //   'gradient-back': 'radial-gradient(40.87% 69.47% at 85.87% 31.98%, rgba(3, 255, 104, 0.09) 0%, rgba(121, 255, 175, 0.00) 100%), radial-gradient(54.34% 45.76% at 15.8% 49.94%, rgba(69, 3, 255, 0.20) 0%, rgba(69, 3, 255, 0.00) 100%), #01100F',

@@ -2,8 +2,8 @@ import { aws, bootstrap, chitkaraGroceryStore, css, docker, express, figma, git,
 
 export const navLinks = [
     {to: "", label: "Home"},
-    { to: "projects", label: "Projects" },
-    { to: "tools-and-technologies", label: "Tools and Technologies" },
+    { to: 'projects', label: "Projects" },
+    { to: "#toolsAndTechnology", label: "Tools and Technologies" },
     { to: "about-me", label: "About Me" },
 ];
 
@@ -46,13 +46,13 @@ export const tools = [
     { src: express, alt: "Express.js" },
     { src: react, alt: "React.js" },
     { src: node, alt: "Node.js" },
-    { src: postman, alt: "Postman" },
-    { src: tailwind, alt: "Tailwind CSS" },
     { src: java, alt: "Java" },
     { src: git, alt: "Git" },
     { src: github, alt: "Github" },
+    { src: tailwind, alt: "Tailwind CSS" },
     { src: aws, alt: "AWS" },
     { src: docker, alt: "Docker" },
+    { src: postman, alt: "Postman" },
     { src: mysql, alt: "MySQL" },
     { src: html, alt: "HTML" },
     { src: css, alt: "CSS" },
