@@ -2,6 +2,7 @@ import React from "react";
 import { laptop } from "../assets/images";
 import { Github, Globe } from "lucide-react";
 import Badge from "./Badge";
+import { github, globe } from "../assets/icons";
 
 const ProjectCard = ({ title, description, githubLink, demoLink, projectImage, skills }) => {
   return (
@@ -32,12 +33,22 @@ const ProjectCard = ({ title, description, githubLink, demoLink, projectImage, s
         <div className="flex items-center space-x-4 mb-4">
           {githubLink && (
             <a href={githubLink} target="_blank" rel="noopener noreferrer" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
-              <Github />
+              <img 
+                src={github} 
+                alt="Github"
+                width={32}
+                height={32}
+              />  
             </a>
           )}
           {demoLink && (
             <a href={demoLink} target="_blank" rel="noopener noreferrer" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
-              <Globe />
+              <img 
+                src={globe} 
+                alt="Website"
+                width={32}
+                height={32}
+              /> 
             </a>
           )}
         </div>
