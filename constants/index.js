@@ -1,4 +1,4 @@
-import { aws, bootstrap, chitkaraGroceryStore, css, docker, express, figma, git, github, html, java, js, mongodb, movieland, mysql, nike, node, postman, react, tailwind, ubuntu, yelpCamp } from "../src/assets/images";
+import { aws, bootstrap, chitkaraGroceryStore, css, docker, express, figma, git, github, html, java, js, kubernetes, mongodb, movieland, mysql, nike, node, postman, react, tailwind, ubuntu, yelpCamp } from "../src/assets/images";
 
 export const navLinks = [
     {to: "", label: "Home"},
@@ -52,6 +52,7 @@ export const tools = [
     { src: tailwind, alt: "Tailwind CSS" },
     { src: aws, alt: "AWS" },
     { src: docker, alt: "Docker" },
+    {src: kubernetes, alt: "Kubernetes"},
     { src: postman, alt: "Postman" },
     { src: mysql, alt: "MySQL" },
     { src: html, alt: "HTML" },

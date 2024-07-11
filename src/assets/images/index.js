@@ -23,6 +23,7 @@ import tailwind from './tailwind-svgrepo-com.svg'
 import bootstrap from './bootstrap-fill-svgrepo-com.svg'
 import ubuntu from './ubuntu-svgrepo-com.svg'
 import postman from './postman-icon-svgrepo-com.svg'
+import kubernetes from './kubernetes-svgrepo-com.svg'
 
 export {
     profile,
@@ -49,5 +50,6 @@ export {
     tailwind,
     bootstrap,
     postman,
-    ubuntu
+    ubuntu, 
+    kubernetes
 }
