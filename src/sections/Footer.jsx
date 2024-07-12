@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Linkedin, Github, Mail, Phone } from "lucide-react";
-import { NavLink } from "react-router-dom";
 import { linkedin, github, phone, mail } from "../assets/icons";
 
 const Footer = () => {
