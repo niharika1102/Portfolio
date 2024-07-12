@@ -25,7 +25,7 @@ export default function App() {
         <section id="about-me" className="padding-x py-10">
           <AboutMe/>
         </section>
-        <section id="contact" className="padding-x padding-t bg-black pb-8">
+        <section id="contact" className="padding-x padding-t pb-8">
           <Footer/>
         </section>
       </main>
