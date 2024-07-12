@@ -14,7 +14,7 @@ export const projects = [
       githubLink: 'https://github.com/niharika1102/YelpCamp',
       demoLink: 'https://yelpcamp-oldf.onrender.com/',
       projectImage: yelpCamp,
-      skills: ['MERN Stack', 'MongoDB', 'Express', 'Node.js', 'Bootstrap', 'Passport.js', 'Cloudinary', 'Mapbox API']
+      skills: ['MERN Stack', 'MongoDB', 'Express', 'Node.js', 'Bootstrap', 'Passport.js', 'Cloudinary', 'Mapbox API', 'Mobile Responsive']
     },
     {
       title: 'Nike Landing Page',
@@ -22,7 +22,7 @@ export const projects = [
       githubLink: 'https://github.com/niharika1102/nike', // Replace with actual link
       demoLink: 'https://6661c75ff5a46808fb56baa6--nike-v1-react.netlify.app/',
       projectImage: nike,
-      skills: ['React', 'Tailwind CSS']
+      skills: ['React', 'Tailwind CSS', 'Mobile Responsive']
     },
     {
       title: 'Chitkara Grocery Store',
@@ -37,7 +37,7 @@ export const projects = [
       githubLink: 'https://github.com/niharika1102/movie-app', // Replace with actual link
       demoLink: 'https://main--golden-salmiakki-131c76.netlify.app/',
       projectImage: movieland,
-      skills: ['React', 'Tailwind CSS', 'OMDb API']
+      skills: ['React', 'Tailwind CSS', 'OMDb API', 'Mobile Responsive']
     }
   ];
 
