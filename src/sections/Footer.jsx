@@ -26,31 +26,31 @@ const Footer = () => {
             width={32}
             height={32}
           />
-          <NavLink 
-            to="mailto:niharikag1102@gmail.com" 
+          <a
+            href="mailto:niharikag1102@gmail.com" 
             className="text-sm md:text-base font-body-1"
           >
             niharikag1102@gmail.com
-          </NavLink>
+          </a>
         </div>
       </div>
       <div className='flex space-x-4 mt-6 md:mt-8'>
-        <NavLink to="https://github.com/niharika1102/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
+        <a href="https://github.com/niharika1102/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
           <img 
             src={github} 
             alt="Github"
             width={32}
             height={32}
           />
-        </NavLink>
-        <NavLink to="https://www.linkedin.com/in/niharika-gupta-/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
+        </a>
+        <a href="https://www.linkedin.com/in/niharika-gupta-/" className='transition duration-300 ease-in-out hover:bg-white-12 hover:rounded p-1'>
         <img 
           src={linkedin} 
           alt="Linkedin"
           width={32}
           height={32}
         />
-        </NavLink>
+        </a>
       </div>
     </section>
   );

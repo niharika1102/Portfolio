@@ -1,6 +1,5 @@
 import React from "react";
 import { laptop } from "../assets/images";
-import { Github, Globe } from "lucide-react";
 import Badge from "./Badge";
 import { github, globe } from "../assets/icons";
 

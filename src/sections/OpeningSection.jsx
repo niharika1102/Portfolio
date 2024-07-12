@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { profile } from '../assets/images/index';
 import Button from '../components/Button';
 
@@ -19,11 +19,11 @@ const OpeningSection = () => {
               Software Developer and App Developer with strong teamwork skills. Passion for coding and innovation. Enthusiastic to learn about software development, programming languages, and emerging technologies, and regularly engaging in online courses and certifications.
             </p>
             <div className="flex flex-col items-center lg:flex-row">
-              <NavLink
+              <Link
                 to="https://drive.google.com/file/d/167xXA3xpczsmr_Wk_evOCZ13CgyfEG5m/view?usp=sharing"
               >
                 <Button label="My Resume" />
-              </NavLink>
+              </Link>
             </div>
           </div>
           <div className="flex justify-center lg:w-1/2 lg:justify-end mt-8 lg:mt-0">

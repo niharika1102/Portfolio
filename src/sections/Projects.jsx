@@ -22,11 +22,11 @@ const Projects = () => {
         ))}
       </div>
       <div className="flex justify-center mt-8">
-        <NavLink
-          to="https://github.com/niharika1102/"
+        <a
+          href="https://github.com/niharika1102/"
         >
           <Button label="More Projects" />
-          </NavLink>
+          </a>
       </div>
     </section>
   );
