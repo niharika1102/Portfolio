@@ -13,19 +13,19 @@ export default function App() {
     <Router>
       <main className="relative layout">
         <Header/>
-        <section id="home" className="xl:padding-l wide:padding-b padding-r">
+        <section id="home">
           <OpeningSection/>
         </section>
-        <section id="projects" className="padding">
+        <section id="projects">
           <Projects/>
         </section>
-        <section id="toolsAndTechnologies" className="padding">
+        <section id="toolsAndTechnologies">
           <ToolsAndTechnologies/>
         </section>
-        <section id="about-me" className="padding-x py-10">
+        <section id="about-me">
           <AboutMe/>
         </section>
-        <section id="contact" className="padding-x padding-t pb-8">
+        <section id="contact">
           <Footer/>
         </section>
       </main>
