@@ -20,7 +20,7 @@ const OpeningSection = () => {
             </p>
             <div className="flex flex-col items-center lg:flex-row">
               <Link
-                to="https://drive.google.com/file/d/167xXA3xpczsmr_Wk_evOCZ13CgyfEG5m/view?usp=sharing"
+                to="https://drive.google.com/file/d/1X_foN2vF4YDl2rEQycgRT21RkMZIz30i/view?usp=sharing"
               >
                 <Button label="My Resume" />
               </Link>
