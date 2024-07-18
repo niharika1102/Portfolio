@@ -24,6 +24,7 @@ import bootstrap from './bootstrap-fill-svgrepo-com.svg'
 import ubuntu from './ubuntu-svgrepo-com.svg'
 import postman from './postman-icon-svgrepo-com.svg'
 import kubernetes from './kubernetes-svgrepo-com.svg'
+import dart from './dart-svgrepo-com.svg'
 
 export {
     profile,
@@ -51,5 +52,6 @@ export {
     bootstrap,
     postman,
     ubuntu, 
-    kubernetes
+    kubernetes,
+    dart,
 }
