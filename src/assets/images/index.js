@@ -1,10 +1,11 @@
+// @ts-nocheck
 import profile from "./profile.svg"
 import laptop from "./laptop.svg"
 import mobile from "./mobile.svg"
 import chitkaraGroceryStore from "./chitkara-grocery-store.svg"
 import yelpCamp from './yelpcamp.png'
-import nike from "./nike.png"
 import movieland from "./movieland.png"
+import jobify from "./jobify.png"
 import mongodb from "./mongodb-svgrepo-com.svg"
 import express from "./express-svgrepo-com.svg"
 import aws from "./aws-svgrepo-com.svg"
@@ -32,7 +33,6 @@ export {
     mobile,
     chitkaraGroceryStore,
     yelpCamp,
-    nike,
     movieland,
     mongodb,
     express,
@@ -54,4 +54,5 @@ export {
     ubuntu, 
     kubernetes,
     dart,
+    jobify,
 }
