@@ -13,7 +13,7 @@ const OpeningSection = () => {
             <h1 className="mb-8 text-3xl sm:text-4xl font-bold font-title-big leading-tight lg:text-5xl xl:text-6xl">
               <span className="text-lGreen">Hi, I&#39;m Niharika,</span>
               <br />
-              <span className="text-white-1">a BE CSE student</span>
+              <span className="text-white-1">SDE Intern at Cognida.ai</span>
             </h1>
             <p className="mb-10 text-base sm:text-lg md:text-xl font-body-1 font-medium leading-7 text-white-2">
               Software Developer and App Developer with strong teamwork skills. Passion for coding and innovation. Enthusiastic to learn about software development, programming languages, and emerging technologies, and regularly engaging in online courses and certifications.
