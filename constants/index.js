@@ -93,6 +93,7 @@ export const tools = [
   { src: express, alt: "Express.js" },
   { src: react, alt: "React.js" },
   { src: node, alt: "Node.js" },
+  { src: python, alt: "Python" },
   { src: java, alt: "Java" },
   { src: git, alt: "Git" },
   { src: github, alt: "Github" },
@@ -109,7 +110,6 @@ export const tools = [
   { src: js, alt: "JavaScript" },
   { src: figma, alt: "Figma" },
   { src: ubuntu, alt: "Ubuntu" },
-  { src: python, alt: "Python" },
 ];
 
 export const timelineEvents = [
