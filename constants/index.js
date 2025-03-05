@@ -21,8 +21,9 @@ import {
   tailwind,
   ubuntu,
   yelpCamp,
-  dart,
+  // dart,
   jobify,
+  python,
 } from "../src/assets/images";
 
 export const navLinks = [
@@ -96,7 +97,7 @@ export const tools = [
   { src: git, alt: "Git" },
   { src: github, alt: "Github" },
   { src: tailwind, alt: "Tailwind CSS" },
-  { src: dart, alt: "Dart" },
+  // { src: dart, alt: "Dart" },
   { src: aws, alt: "AWS" },
   { src: docker, alt: "Docker" },
   { src: kubernetes, alt: "Kubernetes" },
@@ -108,6 +109,7 @@ export const tools = [
   { src: js, alt: "JavaScript" },
   { src: figma, alt: "Figma" },
   { src: ubuntu, alt: "Ubuntu" },
+  { src: python, alt: "Python" },
 ];
 
 export const timelineEvents = [
