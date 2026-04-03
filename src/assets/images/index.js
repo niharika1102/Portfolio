@@ -28,6 +28,8 @@ import kubernetes from './kubernetes-svgrepo-com.svg'
 // import dart from './dart-svgrepo-com.svg'
 import python from './python-svgrepo-com.svg'
 import gcloud from './gcloud.svg'
+import typescript from '/icons8-typescript'
+
 
 export {
     profile,
@@ -58,5 +60,6 @@ export {
     // dart,
     jobify,
     python,
-    gcloud
+    gcloud,
+    typescript
 }
