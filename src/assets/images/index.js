@@ -28,7 +28,7 @@ import kubernetes from './kubernetes-svgrepo-com.svg'
 // import dart from './dart-svgrepo-com.svg'
 import python from './python-svgrepo-com.svg'
 import gcloud from './gcloud.svg'
-import typescript from '/icons8-typescript.svg'
+import typescript from './icons8-typescript.svg'
 
 
 export {
