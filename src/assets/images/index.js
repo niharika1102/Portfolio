@@ -27,6 +27,7 @@ import postman from './postman-icon-svgrepo-com.svg'
 import kubernetes from './kubernetes-svgrepo-com.svg'
 // import dart from './dart-svgrepo-com.svg'
 import python from './python-svgrepo-com.svg'
+import gcloud from './gcloud.svg'
 
 export {
     profile,
@@ -57,4 +58,5 @@ export {
     // dart,
     jobify,
     python,
+    gcloud
 }
