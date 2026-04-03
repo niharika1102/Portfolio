@@ -24,6 +24,7 @@ import {
   // dart,
   jobify,
   python,
+  gcloud
 } from "../src/assets/images";
 
 export const navLinks = [
@@ -89,33 +90,38 @@ export const projects = [
 ];
 
 export const tools = [
-  { src: mongodb, alt: "MongoDB" },
-  { src: express, alt: "Express.js" },
   { src: react, alt: "React.js" },
-  { src: node, alt: "Node.js" },
   { src: python, alt: "Python" },
-  { src: java, alt: "Java" },
   { src: git, alt: "Git" },
-  { src: github, alt: "Github" },
   { src: tailwind, alt: "Tailwind CSS" },
-  // { src: dart, alt: "Dart" },
+  { src: gcloud, alt: "Google Cloud" },
   { src: aws, alt: "AWS" },
   { src: docker, alt: "Docker" },
-  { src: kubernetes, alt: "Kubernetes" },
+  { src: figma, alt: "Figma" },
+  { src: mongodb, alt: "MongoDB" },
+  { src: express, alt: "Express.js" },
+  { src: node, alt: "Node.js" },
   { src: postman, alt: "Postman" },
+  { src: java, alt: "Java" },
+  { src: github, alt: "Github" },
+  // { src: dart, alt: "Dart" },
+  { src: kubernetes, alt: "Kubernetes" },
   { src: mysql, alt: "MySQL" },
   { src: html, alt: "HTML" },
   { src: css, alt: "CSS" },
   { src: bootstrap, alt: "Bootstrap" },
   { src: js, alt: "JavaScript" },
-  { src: figma, alt: "Figma" },
   { src: ubuntu, alt: "Ubuntu" },
 ];
 
 export const timelineEvents = [
   {
-    date: "2021 - Present",
-    description: "Pursuing BE CSE from Chitkara University, Rajpura.",
+    date: "2025 - Present",
+    description: "Software Developer at Cognida.ai",
+  },
+  {
+    date: "2021 - 2025",
+    description: "Completed BE CSE from Chitkara University, Rajpura. (CGPA: 9.23)",
   },
   {
     date: "2021",
