@@ -1,5 +1,5 @@
 // @ts-nocheck
-import profile from "./profile.svg"
+import profile from "./fotor-20250331114813.png"
 import laptop from "./laptop.svg"
 import mobile from "./mobile.svg"
 import chitkaraGroceryStore from "./chitkara-grocery-store.svg"
