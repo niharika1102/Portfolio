@@ -2,13 +2,13 @@ import {
   aws,
   bootstrap,
   chitkaraGroceryStore,
-  css,
+  // css,
   docker,
   express,
   figma,
   git,
   github,
-  html,
+  // html,
   java,
   js,
   kubernetes,
@@ -24,7 +24,8 @@ import {
   // dart,
   jobify,
   python,
-  gcloud
+  gcloud,
+  typescript
 } from "../src/assets/images";
 
 export const navLinks = [
@@ -90,7 +91,8 @@ export const projects = [
 ];
 
 export const tools = [
-  { src: react, alt: "React.js" },
+  { src: react, alt: "React" },
+  { src: typescript, alt: "Typescript" },
   { src: python, alt: "Python" },
   { src: git, alt: "Git" },
   { src: tailwind, alt: "Tailwind CSS" },
@@ -107,8 +109,8 @@ export const tools = [
   // { src: dart, alt: "Dart" },
   { src: kubernetes, alt: "Kubernetes" },
   { src: mysql, alt: "MySQL" },
-  { src: html, alt: "HTML" },
-  { src: css, alt: "CSS" },
+  // { src: html, alt: "HTML" },
+  // { src: css, alt: "CSS" },
   { src: bootstrap, alt: "Bootstrap" },
   { src: js, alt: "JavaScript" },
   { src: ubuntu, alt: "Ubuntu" },
