@@ -1,8 +1,5 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
 import { profile } from '../assets/images/index';
-import Button from '../components/Button';
 
 const OpeningSection = () => {
   return (
@@ -16,15 +13,9 @@ const OpeningSection = () => {
               <span className="text-white-1">Software Developer at Cognida.ai</span>
             </h1>
             <p className="mb-10 text-base sm:text-lg md:text-xl font-body-1 font-medium leading-7 text-white-2">
-              Software Developer and App Developer with strong teamwork skills. Passion for coding and innovation. Enthusiastic to learn about software development, programming languages, and emerging technologies, and regularly engaging in online courses and certifications.
+            Software Development Engineer with 1.5+ years of professional experience building and owning production applications across backend, frontend, authentication and cloud infrastructure.
+            I work with Python, FastAPI, React, TypeScript and GCP, building REST APIs, authentication systems, AI-powered applications and production platforms used across multiple product experiences.
             </p>
-            <div className="flex flex-col items-center lg:flex-row">
-              <Link
-                to="https://drive.google.com/file/d/1sRPgqUGL50PHlf1dfeXryJcLtar6zpDN/view?usp=drive_link"
-              >
-                <Button label="My Resume" />
-              </Link>
-            </div>
           </div>
           <div className="flex justify-center lg:w-1/2 lg:justify-end mt-8 lg:mt-0">
             <img className="w-3/6 sm:w-2/4 md:w-1/3 lg:w-3/6 rounded-2xl" src={profile} alt="Profile picture" />
