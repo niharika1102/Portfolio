@@ -30,6 +30,17 @@ import python from './python-svgrepo-com.svg'
 import gcloud from './gcloud.svg'
 import typescript from './icons8-typescript.svg'
 
+// New imports for added technologies
+import fastapi from './fastapi.svg'
+import gemini from './gemini.svg'
+import claude from './claude.svg'
+import openai from './openai.svg'
+import springboot from './springboot.svg'
+import azure from './azure.svg'
+import keycloak from './keycloak.svg'
+import postgres from './postgres.svg'
+import chromadb from './chromadb.svg'
+import firebase from './firebase.svg'
 
 export {
     profile,
@@ -55,11 +66,22 @@ export {
     tailwind,
     bootstrap,
     postman,
-    ubuntu, 
+    ubuntu,
     kubernetes,
     // dart,
     jobify,
     python,
     gcloud,
-    typescript
+    typescript,
+    // New exports
+    fastapi,
+    gemini,
+    claude,
+    openai,
+    springboot,
+    azure,
+    keycloak,
+    postgres,
+    chromadb,
+    firebase,
 }
